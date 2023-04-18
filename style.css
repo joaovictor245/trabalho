@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+Krona+One&family=Montserrat:wght@400;600&display=swap');
+body {
+    background: rgb(0, 0, 0);
+}
+
+header{
+    background-color: rgb(28, 73, 1);
+    padding: 2%;
+}
+.cabecalho {
+    background-color: rgb(28, 73, 1);
+    padding: 22px;
+    font-family: 'Krona One', 'sans-serif';
+}
+
+.links__links{
+ font-size: 30px;
+ text-decoration: none;
+ color: black;
+ margin: 0 0 20px 10px;
+}
+
+.links__links:hover{
+    color: white;
+}
+
+.cabecalho__paragrafo{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.titulo__principal{
+    font-size: 25px;
+    text-align: center;
+    margin: 4% 0 0 0;
+    color: white;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0 ;
+}
+
+li {
+    color: white;
+    font-size: 30px;
+    margin: 20px 0 0 0;  
+}
+
+.nomes {
+    text-align: center;
+   }
+
+.nomess{
+    margin: 20px 0 0 0;
+}
+
+strong {
+    color: rgb(28, 73, 1);  
+    font-size: 50px;
+}
+
+@media (max-width:0px){
+
+        .nomes{
+            border: solid rgb(28, 73, 1);
+            border-radius: 10px;
+        }
+}
